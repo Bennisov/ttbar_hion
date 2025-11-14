@@ -1,0 +1,15 @@
+10X: Basic analysis code was drafted. First version of MC ntuple was analyzed. PT of leptons for every channel was analyzed. Event selection:
+dielectron - 2 e with opposite charges and pt > 15GeV
+electron-muon - one of each with opposite charges and pt > 15GeV
+dimuon - 2 mu with opposite charges and pt > 15GeV
+mu-jet - 1 muon with pt > 15GeV
+el-jet - 1 e with pt > 15GeV
+
+
+23X: New version of MC: version 2 with METs. We implemented further selection of events. We demanded that leptons should pass LOOSE OP. We compared variables like lepton eta, jet multiplicity. Comparison of MET value and phi for different METs (calculating algorythms) and channels. We checked number of events passing new OP cut. Issue with inefficiency of OP was noticed.
+
+
+4XI: We analyzed MET in context of centrality of impact.
+
+
+7XI: Improvement in numbers of events (efficiency of e reco) was noticed as new MC ntuple was introduced. We analyzed MET differences for combined channels.

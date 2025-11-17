@@ -12,4 +12,6 @@ el-jet - 1 e with pt > 15GeV
 4XI: We analyzed MET in context of centrality of impact.
 
 
-7XI: Improvement in numbers of events (efficiency of e reco) was noticed as new MC ntuple was introduced. We analyzed MET differences for combined channels.
+7XI: Improvement in numbers of events (efficiency of e reco) was noticed as new MC ntuple was introduced. It contanis new HI OPs that provide better statistics. Counts in electron and muon coresponding channels now are similiar. We analyzed MET differences for combined channels. All selected MET anlgorytms provide similliar histograms for MET value and MET phi: no differences were found. We found no issues for all METs.
+
+17XI: 

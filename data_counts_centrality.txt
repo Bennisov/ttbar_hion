@@ -1,0 +1,110 @@
+Channel Analysis Results with Operating Points and Centrality
+=============================================================
+Total events analyzed: 74287
+FCal sum ET median: 3.34042
+
+3D Array Format: [Centrality][Electron WP][Muon WP]
+Centrality: 0=Peripheral (FCal <= median), 1=Central (FCal > median)
+Electron WP: 0=HILoose, 1=HIMedium, 2=HITight
+Muon WP: 0=Loose, 1=Medium, 2=Tight
+
+Selection Criteria:
+  - Dielectron: exactly 2 e, opposite charges, pt > 15 GeV, >= 1 jet (pt > 30 GeV)
+  - Electron-Muon: exactly 1 e + 1 mu, opposite charges, pt > 15 GeV, >= 1 jet (pt > 30 GeV)
+  - Dimuon: exactly 2 mu, opposite charges, pt > 15 GeV, >= 1 jet (pt > 30 GeV)
+  - Muon-Jet: exactly 1 mu, pt > 15 GeV, >= 2 jets (pt > 30 GeV)
+  - Electron-Jet: exactly 1 e, pt > 15 GeV, >= 2 jets (pt > 30 GeV)
+
+===== Dielectron Channel =====
+  PERIPHERAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose        3756        3756        3756
+      El_HIMedium         836         836         836
+       El_HITight         539         539         539
+
+  CENTRAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose        3654        3654        3654
+      El_HIMedium         943         943         943
+       El_HITight         536         536         536
+
+===== Electron-Muon Channel =====
+  PERIPHERAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose         867         860         758
+      El_HIMedium         211         210         186
+       El_HITight          89          89          83
+
+  CENTRAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose         615         609         549
+      El_HIMedium         178         174         155
+       El_HITight          95          94          86
+
+===== Dimuon Channel =====
+  PERIPHERAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose        1199        1186        1033
+      El_HIMedium        1199        1186        1033
+       El_HITight        1199        1186        1033
+
+  CENTRAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose        1304        1300        1130
+      El_HIMedium        1304        1300        1130
+       El_HITight        1304        1300        1130
+
+===== Muon-Jet Channel =====
+  PERIPHERAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose         761         762         679
+      El_HIMedium         761         762         679
+       El_HITight         761         762         679
+
+  CENTRAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose        2246        2242        2071
+      El_HIMedium        2246        2242        2071
+       El_HITight        2246        2242        2071
+
+===== Electron-Jet Channel =====
+  PERIPHERAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose        3958        3958        3958
+      El_HIMedium        1622        1622        1622
+       El_HITight         726         726         726
+
+  CENTRAL Events:
+                     Mu_Loose   Mu_Medium    Mu_Tight
+       El_HILoose       18104       18104       18104
+      El_HIMedium        7481        7481        7481
+       El_HITight        3793        3793        3793
+
+===== Summary Statistics (matching el and mu WPs) =====
+
+PERIPHERAL Events:
+  Total Loose: 10541
+  Total Medium: 4616
+  Total Tight: 3060
+
+CENTRAL Events:
+  Total Loose: 25923
+  Total Medium: 12140
+  Total Tight: 7616
+
+Channel percentages (per WP and centrality):
+  Dielectron:
+    Peripheral: loose=35.63%, medium=18.11%, tight=17.61%
+    Central:    loose=14.10%, medium=7.77%, tight=7.04%
+  Electron-Muon:
+    Peripheral: loose=8.23%, medium=4.55%, tight=2.71%
+    Central:    loose=2.37%, medium=1.43%, tight=1.13%
+  Dimuon:
+    Peripheral: loose=11.37%, medium=25.69%, tight=33.76%
+    Central:    loose=5.03%, medium=10.71%, tight=14.84%
+  Muon-Jet:
+    Peripheral: loose=7.22%, medium=16.51%, tight=22.19%
+    Central:    loose=8.66%, medium=18.47%, tight=27.19%
+  Electron-Jet:
+    Peripheral: loose=37.55%, medium=35.14%, tight=23.73%
+    Central:    loose=69.84%, medium=61.62%, tight=49.80%

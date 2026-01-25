@@ -1,0 +1,69 @@
+Channel Analysis Results with Operating Points
+==============================================
+Total events analyzed: 74287
+
+2D Array Format: [Electron WP][Muon WP]
+Electron WP: 0=HILoose, 1=HIMedium, 2=HITight
+Muon WP: 0=Loose, 1=Medium, 2=Tight
+
+Selection Criteria:
+  - Dielectron: exactly 2 e, opposite charges, pt > 15 GeV, >= 1 jet (pt > 30 GeV)
+  - Electron-Muon: exactly 1 e + 1 mu, opposite charges, pt > 15 GeV, >= 1 jet (pt > 30 GeV)
+  - Dimuon: exactly 2 mu, opposite charges, pt > 15 GeV, >= 1 jet (pt > 30 GeV)
+  - Muon-Jet: exactly 1 mu, pt > 15 GeV, >= 2 jets (pt > 30 GeV)
+  - Electron-Jet: exactly 1 e, pt > 15 GeV, >= 2 jets (pt > 30 GeV)
+
+MET Distributions:
+  - Plotted for dilepton events with invariant mass in Z-window (66-116 GeV)
+  - All three dilepton channels combined (ee, emu, mumu)
+
+===== Dielectron Channel =====
+                   Mu_Loose   Mu_Medium    Mu_Tight
+     El_HILoose        2227        2227        2227
+    El_HIMedium        1193        1193        1193
+     El_HITight         826         826         826
+
+===== Electron-Muon Channel =====
+                   Mu_Loose   Mu_Medium    Mu_Tight
+     El_HILoose         252         238         220
+    El_HIMedium          92          88          84
+     El_HITight          51          49          48
+
+===== Dimuon Channel =====
+                   Mu_Loose   Mu_Medium    Mu_Tight
+     El_HILoose        2032        2012        1764
+    El_HIMedium        2032        2012        1764
+     El_HITight        2032        2012        1764
+
+===== Muon-Jet Channel =====
+                   Mu_Loose   Mu_Medium    Mu_Tight
+     El_HILoose        1526        1510        1426
+    El_HIMedium        1526        1510        1426
+     El_HITight        1526        1510        1426
+
+===== Electron-Jet Channel =====
+                   Mu_Loose   Mu_Medium    Mu_Tight
+     El_HILoose       12400       12400       12400
+    El_HIMedium        5096        5096        5096
+     El_HITight        2611        2611        2611
+
+===== Summary Statistics (matching el and mu WPs) =====
+Total events across all channels:
+  Loose:  18437
+  Medium: 9899
+  Tight:  6675
+
+Channel percentages of totals (per WP):
+  Dielectron:    loose=12.08%, medium=12.05%, tight=12.37%
+  Electron-Muon: loose=1.37%, medium=0.89%, tight=0.72%
+  Dimuon:        loose=11.02%, medium=20.33%, tight=26.43%
+  Muon-Jet:      loose=8.28%, medium=15.25%, tight=21.36%
+  Electron-Jet:  loose=67.26%, medium=51.48%, tight=39.12%
+
+===== MET Statistics (Z-mass window: 66-116 GeV) =====
+Total events in Z-mass window across all dilepton channels:
+  MET1: 24358.00 events, mean = 57744.86 MeV
+  MET2: 24358.00 events, mean = 40529.99 MeV
+  MET3: 24358.00 events, mean = 30230.08 MeV
+  MET4: 24358.00 events, mean = 26385.17 MeV
+  MET5: 24358.00 events, mean = 25032.22 MeV

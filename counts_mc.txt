@@ -1,0 +1,7 @@
+Channel              Loose     
+-----------------------------------
+Dielectron           247       
+Dimuon (+MET)        223       
+El-Mu (+MET)         395       
+Muon+>=2Jets         1607      
+Electron+>=2Jets     1626      

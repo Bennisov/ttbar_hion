@@ -1,0 +1,7 @@
+Channel              Loose      Medium     Tight     
+-------------------------------------------------------
+Dielectron           15638      4344       2699      
+Dimuon               2533       2509       2163      
+Electron-Muon        2428       590        240       
+Muon+>=2Jets         2944       2934       2688      
+Electron+>=2Jets     15271      9451       5162      
